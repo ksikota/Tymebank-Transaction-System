@@ -1,6 +1,5 @@
 # Tymebank-Transaction-System
  A simple financial records entry system
-# TymeBank Transaction System
 
 ## Overview
 A simple financial transaction management system that allows users to track multiple accounts, view account balances, and manage transactions (credits and debits).
