@@ -2,10 +2,9 @@
  A simple financial records entry system
 
 ## Overview
-A simple financial transaction management system that allows users to track multiple accounts, view account balances, and manage transactions (credits and debits).
+A simple financial transaction management system that allows a user to view account balances, and manage transactions (credits and debits).
 
 ## Features
-- Multiple account management
 - Add, view, update, and delete transactions
 - Responsive user interface
 - Transaction history and account balance calculation
@@ -23,14 +22,13 @@ A simple financial transaction management system that allows users to track mult
 - Python 3.6 or higher
 - PostgreSQL
 - Node.js (if using any frontend build tools)
-- Docker (optional, for database setup)
+- Docker (for database setup)
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ksikota/tymebank-transaction-system.git
-   cd tymebank-transaction-system
+   git clone https://github.com/ksikota/Tymebank-Transaction-System.git
    
     python -m venv venv
     source venv/bin/activate  # For macOS/Linux
