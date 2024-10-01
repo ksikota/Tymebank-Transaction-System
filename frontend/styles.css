@@ -1,0 +1,171 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 50px;
+    margin-top: 50px;
+"
+}
+
+.container {
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #444;
+}
+
+.balance {
+    background-color: #FFDD00;
+    color: black;
+    font-size: 32px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Transaction List Section */
+.transactions h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#transactions-list {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#transactions-list p {
+    color: #777;
+}
+
+#add-transaction-btn {
+    background-color: #FFDD00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#add-transaction-btn:hover {
+    background-color: #FFDD00;
+}
+
+/* Transaction Form Section */
+#transaction-form-container {
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border-color: #FFDD00;
+    outline: none;
+}
+
+input::placeholder {
+    color: #bbb;
+}
+
+/* Submit Button */
+.btn-submit {
+    background-color: #FFDD00;
+    color: black;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #FFDD00;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .balance {
+        font-size: 28px;
+    }
+
+    h2, h3 {
+        font-size: 16px;
+    }
+
+    input, select, button {
+        font-size: 14px;
+    }
+}

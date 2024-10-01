@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: ksikota
+      POSTGRES_PASSWORD: ksikota
+      POSTGRES_DB: financial_db
+    ports:
+      - "5432:5432"
